@@ -1,20 +1,27 @@
 <html>
 <head>
-<title>My First Web Page</title>
+<title>Name</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-    <div class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-    </div>
-
-    <h1>My First Web Page</h1>
-    <p>My first paragraph.</p>
-    <p>My second paragraph.</p>
+    <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#">Resume</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+        
+    <!-- Add 100 <br> with Javascript -->
+    <script>
+        for (var i = 0; i < 100; i++) {
+            document.write("<br>");
+        }
+    </script>
+    
+    <h1 id="projects">Projects</h1>
+    
 </body>
 </html>
